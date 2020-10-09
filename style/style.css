@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main_wrapper{
+    width: 100%;
+
+}
+/* TOP BANNER START  */
+.banner{
+    background-image: url(../images/banner/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+    width: 100%;
+}
+.logo{
+    margin-left: 20px;
+    display: flex;
+}
+.banner_info_wrapper{
+    width: 100%;
+    display: flex;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.433);
+}
+.banner_top_text{
+    color: #fff;
+    margin-left: 20px;
+    font-size: 20px;
+    margin-top: 13px;
+}
+#banner_head_text{
+    font-family: 'Fjalla One', sans-serif;
+}
+#banner_head_address_text{
+    font-family: 'Piazzolla', serif;
+}
+/* TOB BANNER END  */
+
+/* NAV_BAR START  */
+.nav_bar{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 28px;
+    margin-top: 10px;
+    
+}
+ .nav_bar ul{
+    float:right;
+
+}
+.nav_bar ul li{
+    display: inline-block;
+    margin-right: 90px;
+    color: #fff;
+    line-height: 28px;
+    cursor: pointer;
+    font-family: 'Piazzolla', serif;
+}
+/* NAV BAR END  */
+
+.banner_image_text{
+    margin-top: 150px;  
+}
+#middle_banner_text{
+    color: #fff;
+    font-size: 70px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+/* ARTICLE DETAILS  */
+
+.details_wrapper{
+    width: 100%;
+    height: 500px;
+    background-color: red;
+    display: flex;
+}
+.contact_details{
+    width: 50%;
+    height: 500px;
+    background-color: rgb(223, 0, 0);
+}
+.details_text_wrapper{
+    margin: 0 auto;
+    width: 70%;
+    font-size: 50px;
+    margin-top: 80px;
+}
+.details_text_wrapper h3{
+    color: rgb(0, 0, 0);
+    font-size: 47px;
+}
+#fire_text_{
+    color: #fff;
+    font-family: 'Work Sans', sans-serif;
+}
+.details_text_wrapper h2{
+    color: #fff;
+}
+.info{
+    width: 50%;
+    height: 500px;
+    background-image: url(../images/articleImages/fire_fighter2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px;
+}
+
+.bg_image_wrapper h3{
+    font-size: 40px;
+    margin-top: 15px;
+    cursor: pointer;
+    color: #000;
+    font-family: 'Work Sans', sans-serif;
+
+}
+.Info_text_hover:hover {
+    color: rgb(255, 179, 86);
+}
+/* ARTICLE DETAILS END  */
+
+.article_head_text{
+    width: 38%;
+    margin: 0 auto;
+    padding: 30px 0;
+}    
+.article_head_text h1{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 40px;
+}
+
+/* WORK INFORMATION */
+.work_info_wrapper{
+    width: 90%;   
+    margin: 0 auto;
+}
+.work_info{
+    display: flex;
+    margin-top: 15px;
+    width: 100%;
+    
+}
+.article_details_wrapper{
+    width: 33%;
+    overflow: hidden;
+    height: 500px;
+    margin-left: 3px;
+    
+}
+.article_details_wrapper p{
+    margin-top: 20px;
+    font-size: 28px;
+    font-family: 'Piazzolla', serif;
+}
+/* PRODUCTS START  */
+
+.products{
+    width: 100%;
+    margin-top: 50px;
+}
+.products_top_text{
+    text-align: center;
+    width: 100%;
+}
+.products_top_text h1{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 35px;
+}
+.product_btn_wrapper{
+    width: 100%;
+    margin-top: 20px;
+}
+.btn_align{
+    display: flex;
+}
+.product_btn1{
+    display: flex;
+    background-color: rgb(99, 99, 99);
+    text-align: center;
+    width: 400px;
+    height: 60px;
+    margin: 10px;
+    font-family: 'Piazzolla', serif;
+
+}
+.product_btn2{
+    display: flex;
+    background-color: rgb(237, 174, 40);
+    text-align: center;
+    width: 400px;
+    height: 60px;
+    margin: 10px;
+    font-family: 'Piazzolla', serif;
+
+}
+.product_btn{
+    display: flex;
+    background-color: rgb(199, 149, 41);
+    text-align: center;
+    width: 400px;
+    height: 60px;
+    margin: 10px;
+    font-family: 'Piazzolla', serif;
+
+}
+.btn_text_aligner{
+    display: flex;
+    padding-top: 13px;
+    margin-left: 20px;
+    color: #fff;
+}
+.P_text_style{
+    margin-left: 10px;
+    font-size: 25px;
+}
+/* PRODUCTS END  */
+
+/* FOOTER START  */
+.foot_style{
+    width: 100%;
+    height: 270px;
+    background-color: rgb(191, 0, 0);
+    display: flex;
+    padding: 80px;
+    color: #fff;
+    margin-top: 50;
+}
+.foot_info ul li{
+     list-style-type: none;
+     margin-bottom: 20px;
+     font-family: 'Piazzolla', serif;
+
+}
+.certificate{
+    margin-left: 150px;
+}
+.foot_contacts_details{
+    margin-left: 100px;
+}
+.foot_contacts_details h1{
+    font-family: 'Fjalla One', sans-serif;
+
+}
+.foot_contacts_details p{
+    font-family: 'Piazzolla', serif;
+
+}
+.certificate img{
+    border: rgb(255, 0, 0) solid 5px;
+}
