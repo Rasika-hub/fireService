@@ -60,6 +60,9 @@
     cursor: pointer;
     font-family: 'Piazzolla', serif;
 }
+ul li:hover{
+	color: rgb(255, 179, 86);
+}
 /* NAV BAR END  */
 
 .banner_image_text{
@@ -117,7 +120,7 @@
     cursor: pointer;
     color: #000;
     font-family: 'Work Sans', sans-serif;
-
+	width: 230px;
 }
 .Info_text_hover:hover {
     color: rgb(255, 179, 86);
@@ -150,12 +153,22 @@
     overflow: hidden;
     height: 500px;
     margin-left: 3px;
-    
+   
 }
 .article_details_wrapper p{
     margin-top: 20px;
     font-size: 28px;
     font-family: 'Piazzolla', serif;
+}
+.img_style{
+    transition: 0.4s transform;
+    overflow: hidden;
+    
+}
+.img_style:hover{
+    transform: scale(.9);
+    
+    
 }
 /* PRODUCTS START  */
 
@@ -253,3 +266,6 @@
 .certificate img{
     border: rgb(255, 0, 0) solid 5px;
 }
+.foot_contacts_details a{
+	text-decoration: none;
+	color: #fff;
